@@ -1,0 +1,26 @@
+ {
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:deepikag2024.github.io:Deepikatest:784268d1-5286-42d9-ba44-94a2087eea1b",
+        "alsoKnownAs": [
+            "testUUID",
+            "test@gmail.com"
+        ],
+        "service": [],
+        "verificationMethod": [
+            {
+                "id": "did:web:deepikag2024.github.io:Deepikatest:784268d1-5286-42d9-ba44-94a2087eea1b#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:deepikag2024.github.io:Deepikatest:784268d1-5286-42d9-ba44-94a2087eea1b",
+                "publicKeyMultibase": "z6MkmxKqztH4FctJUxhxpG4HgpYLWP5pLh9onoo5PnmVKEth"
+            }
+        ],
+        "authentication": [
+            "did:web:deepikag2024.github.io:Deepikatest:784268d1-5286-42d9-ba44-94a2087eea1b#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:deepikag2024.github.io:Deepikatest:784268d1-5286-42d9-ba44-94a2087eea1b#key-0"
+        ]
+    }
