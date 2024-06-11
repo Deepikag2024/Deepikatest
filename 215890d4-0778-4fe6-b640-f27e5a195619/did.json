@@ -1,0 +1,26 @@
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:challabeehyv.github.io:DID-Resolve:215890d4-0778-4fe6-b640-f27e5a195619",
+        "alsoKnownAs": [
+            "testUUID",
+            "test@gmail.com"
+        ],
+        "service": [],
+        "verificationMethod": [
+            {
+                "id": "did:web:challabeehyv.github.io:DID-Resolve:215890d4-0778-4fe6-b640-f27e5a195619#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:challabeehyv.github.io:DID-Resolve:215890d4-0778-4fe6-b640-f27e5a195619",
+                "publicKeyMultibase": "z6MkfD5XMDYjYBJbY9NNqKtBU1mv6cU7FADCiU73EZ1Qq13i"
+            }
+        ],
+        "authentication": [
+            "did:web:challabeehyv.github.io:DID-Resolve:215890d4-0778-4fe6-b640-f27e5a195619#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:challabeehyv.github.io:DID-Resolve:215890d4-0778-4fe6-b640-f27e5a195619#key-0"
+        ]
+    }
